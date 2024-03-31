@@ -1,0 +1,90 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    margin: 0;
+}
+
+#header {
+    color: #ffffff;
+    background-size: cover;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url("https://www.visitlincolnshire.com/wp-content/uploads/fly-images/23425/easton-walled-gardens-1-1920x700-cc.jpg");
+    margin-bottom: 0;
+}
+
+#header h1 {
+    padding: 150px 0 0 0;
+    font-size: 78px;
+    text-shadow: 1px 1px black;
+}
+
+#header h3 {
+    padding: 0 0 150px 0;
+    text-shadow: 1px 1px black;
+}
+#content {
+    margin-top: 0;
+    background-color: #bab57a;
+    padding: 10px;
+}
+
+#content h2{
+    font-size: 36px;
+    padding: 25px 0 50px 0;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.activity-img:hover{
+    opacity: 0.5;
+}
+
+
+#guide {
+    color: #484849;
+    background-color: #f4f6f8;
+    padding: 100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#guide img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+#guide-details {
+    padding: 0 50px;
+    text-align: left;
+    width: 500px;
+}
